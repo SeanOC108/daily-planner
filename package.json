@@ -1,0 +1,10 @@
+{
+  "name": "daily-planner",
+  "version": "1.0.0",
+  "description": "Daily planner email automation",
+  "type": "module",
+  "main": "send-daily-email.js",
+  "scripts": {
+    "send": "node send-daily-email.js"
+  }
+}
