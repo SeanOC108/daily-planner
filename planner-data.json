@@ -1,6 +1,6 @@
 {
   "_comment": "Sean's planner data. Edit this file to change your program, schedule, or notes. The email script and widget both read from here.",
-  "version": "1.0",
+  "version": "1.1",
   "owner": {
     "name": "Sean",
     "email": "p.sean514@gmail.com",
@@ -9,113 +9,278 @@
   "weekly_schedule": {
     "Monday": {
       "type": "WFH",
-      "workout_day": "Push",
+      "workout_day": "Push A",
       "blocks": [
-        { "time": "6:30–7:00", "label": "Strength training (Push)" },
-        { "time": "7:00–8:30", "label": "Dogs, shower, get ready" },
-        { "time": "8:30–5:00", "label": "Work" },
-        { "time": "5:00–6:30", "label": "Dog walk + cook dinner" },
-        { "time": "6:30–7:30", "label": "Dinner + TV" },
-        { "time": "7:30–7:50", "label": "Daily journal" },
-        { "time": "8:00+", "label": "Read in bed" }
+        {
+          "time": "6:30–7:00",
+          "label": "Strength training (Push A)"
+        },
+        {
+          "time": "7:00–8:30",
+          "label": "Dogs, shower, get ready"
+        },
+        {
+          "time": "8:30–5:00",
+          "label": "Work"
+        },
+        {
+          "time": "5:00–6:30",
+          "label": "Dog walk + cook dinner"
+        },
+        {
+          "time": "6:30–7:30",
+          "label": "Dinner + TV"
+        },
+        {
+          "time": "7:30–7:50",
+          "label": "Daily journal"
+        },
+        {
+          "time": "8:00+",
+          "label": "Read in bed"
+        }
       ]
     },
     "Tuesday": {
       "type": "Office",
-      "workout_day": "Pull",
+      "workout_day": "Pull A",
       "blocks": [
-        { "time": "6:00–6:45", "label": "Dogs, get ready, out the door" },
-        { "time": "7:11–7:45", "label": "Morning train — learning" },
-        { "time": "8:00–4:40", "label": "Work" },
-        { "time": "4:40–5:15", "label": "Evening train — reading" },
-        { "time": "5:55–6:30", "label": "Dog walk / cook" },
-        { "time": "6:30–7:30", "label": "Dinner + TV" },
-        { "time": "7:30–7:50", "label": "Daily journal" },
-        { "time": "7:50–8:15", "label": "Strength training (Pull)" }
+        {
+          "time": "6:00–6:45",
+          "label": "Dogs, get ready, out the door"
+        },
+        {
+          "time": "7:11–7:45",
+          "label": "Morning train — learning"
+        },
+        {
+          "time": "8:00–4:40",
+          "label": "Work"
+        },
+        {
+          "time": "4:40–5:15",
+          "label": "Evening train — reading"
+        },
+        {
+          "time": "5:55–6:30",
+          "label": "Dog walk / cook"
+        },
+        {
+          "time": "6:30–7:30",
+          "label": "Dinner + TV"
+        },
+        {
+          "time": "7:30–7:50",
+          "label": "Daily journal"
+        },
+        {
+          "time": "7:50–8:15",
+          "label": "Strength training (Pull A)"
+        }
       ]
     },
     "Wednesday": {
       "type": "Office",
-      "workout_day": "Legs",
+      "workout_day": "Legs A",
       "blocks": [
-        { "time": "5:30–6:00", "label": "Optional run" },
-        { "time": "6:00–6:45", "label": "Dogs, get ready, out the door" },
-        { "time": "7:11–7:45", "label": "Morning train — learning" },
-        { "time": "8:00–4:40", "label": "Work" },
-        { "time": "4:40–5:15", "label": "Evening train — memoir journaling" },
-        { "time": "5:55–6:30", "label": "Dog walk / cook" },
-        { "time": "6:30–7:30", "label": "Dinner + TV" },
-        { "time": "7:30–7:50", "label": "Daily journal" },
-        { "time": "7:50–8:15", "label": "Strength training (Legs, if no morning run)" }
+        {
+          "time": "5:30–6:00",
+          "label": "Optional run"
+        },
+        {
+          "time": "6:00–6:45",
+          "label": "Dogs, get ready, out the door"
+        },
+        {
+          "time": "7:11–7:45",
+          "label": "Morning train — learning"
+        },
+        {
+          "time": "8:00–4:40",
+          "label": "Work"
+        },
+        {
+          "time": "4:40–5:15",
+          "label": "Evening train — memoir journaling"
+        },
+        {
+          "time": "5:55–6:30",
+          "label": "Dog walk / cook"
+        },
+        {
+          "time": "6:30–7:30",
+          "label": "Dinner + TV"
+        },
+        {
+          "time": "7:30–7:50",
+          "label": "Daily journal"
+        },
+        {
+          "time": "7:50–8:15",
+          "label": "Strength training (Legs A)"
+        }
       ]
     },
     "Thursday": {
       "type": "Office",
-      "workout_day": "Upper",
+      "workout_day": "Rest",
       "blocks": [
-        { "time": "6:00–6:45", "label": "Dogs, get ready, out the door" },
-        { "time": "7:11–7:45", "label": "Morning train — learning" },
-        { "time": "8:00–4:40", "label": "Work" },
-        { "time": "4:40–5:15", "label": "Evening train — reading" },
-        { "time": "5:55–6:30", "label": "Dog walk / cook" },
-        { "time": "6:30–7:30", "label": "Dinner + TV" },
-        { "time": "7:30–7:50", "label": "Daily journal" },
-        { "time": "7:50–8:15", "label": "Strength training (Upper)" }
+        {
+          "time": "6:00–6:45",
+          "label": "Dogs, get ready, out the door"
+        },
+        {
+          "time": "7:11–7:45",
+          "label": "Morning train — learning"
+        },
+        {
+          "time": "8:00–4:40",
+          "label": "Work"
+        },
+        {
+          "time": "4:40–5:15",
+          "label": "Evening train — reading"
+        },
+        {
+          "time": "5:55–6:30",
+          "label": "Dog walk / cook"
+        },
+        {
+          "time": "6:30–7:30",
+          "label": "Dinner + TV"
+        },
+        {
+          "time": "7:30–7:50",
+          "label": "Daily journal"
+        },
+        {
+          "time": "8:00+",
+          "label": "Read or wind down (rest day)"
+        }
       ]
     },
     "Friday": {
       "type": "WFH",
-      "workout_day": "Lower",
+      "workout_day": "Push B",
       "blocks": [
-        { "time": "6:30–7:00", "label": "Strength training (Lower)" },
-        { "time": "7:00–8:30", "label": "Dogs, shower, get ready" },
-        { "time": "8:30–5:00", "label": "Work" },
-        { "time": "5:00–6:30", "label": "Dog walk + cook dinner" },
-        { "time": "6:30–8:00", "label": "Dinner + TV (longer — it's Friday)" },
-        { "time": "8:00–8:20", "label": "Daily journal" },
-        { "time": "8:20+", "label": "Wind down, read" }
+        {
+          "time": "6:30–7:00",
+          "label": "Strength training (Push B)"
+        },
+        {
+          "time": "7:00–8:30",
+          "label": "Dogs, shower, get ready"
+        },
+        {
+          "time": "8:30–5:00",
+          "label": "Work"
+        },
+        {
+          "time": "5:00–6:30",
+          "label": "Dog walk + cook dinner"
+        },
+        {
+          "time": "6:30–8:00",
+          "label": "Dinner + TV (longer — it's Friday)"
+        },
+        {
+          "time": "8:00–8:20",
+          "label": "Daily journal"
+        },
+        {
+          "time": "8:20+",
+          "label": "Wind down, read"
+        }
       ]
     },
     "Saturday": {
       "type": "Weekend",
-      "workout_day": "Rest / Run",
+      "workout_day": "Pull B",
       "blocks": [
-        { "time": "7:00–7:45", "label": "Morning run" },
-        { "time": "8:00–9:00", "label": "Breakfast, dogs" },
-        { "time": "9:30–10:30", "label": "Mow lawn (Apr–Oct) or chores" },
-        { "time": "12:00–1:00", "label": "Memoir journaling (30–60 min)" },
-        { "time": "1:30–5:00", "label": "F1 / Revs / shows / free time" },
-        { "time": "Evening", "label": "Social / TV / free" },
-        { "time": "Before bed", "label": "Daily journal" }
+        {
+          "time": "7:00–7:45",
+          "label": "Morning run"
+        },
+        {
+          "time": "8:00–8:45",
+          "label": "Strength training (Pull B)"
+        },
+        {
+          "time": "9:00–10:30",
+          "label": "Breakfast, dogs"
+        },
+        {
+          "time": "10:30–11:30",
+          "label": "Mow lawn (Apr–Oct) or chores"
+        },
+        {
+          "time": "12:00–1:00",
+          "label": "Memoir journaling (30–60 min)"
+        },
+        {
+          "time": "1:30–5:00",
+          "label": "F1 / Revs / shows / free time"
+        },
+        {
+          "time": "Evening",
+          "label": "Social / TV / free"
+        },
+        {
+          "time": "Before bed",
+          "label": "Daily journal"
+        }
       ]
     },
     "Sunday": {
       "type": "Weekend",
-      "workout_day": "Rest",
+      "workout_day": "Legs B",
       "blocks": [
-        { "time": "7:00–8:00", "label": "Dogs, breakfast" },
-        { "time": "8:00–8:45", "label": "Get ready for mass" },
-        { "time": "9:00–10:30", "label": "Mass" },
-        { "time": "12:00–1:30", "label": "Reading / learning" },
-        { "time": "1:30–6:00", "label": "Sports / shows / free time" },
-        { "time": "Evening", "label": "Light week prep" },
-        { "time": "Before bed", "label": "Daily journal" }
+        {
+          "time": "7:00–8:00",
+          "label": "Dogs, breakfast"
+        },
+        {
+          "time": "8:00–8:45",
+          "label": "Get ready for mass"
+        },
+        {
+          "time": "9:00–10:30",
+          "label": "Mass"
+        },
+        {
+          "time": "11:00–11:45",
+          "label": "Strength training (Legs B)"
+        },
+        {
+          "time": "12:00–1:30",
+          "label": "Reading / learning"
+        },
+        {
+          "time": "1:30–6:00",
+          "label": "Sports / shows / free time"
+        },
+        {
+          "time": "Evening",
+          "label": "Light week prep"
+        },
+        {
+          "time": "Before bed",
+          "label": "Daily journal"
+        }
       ]
     }
   },
-
-  "_program_notes": "4-week hypertrophy program for 45 lb dumbbells + bench. Designed for advanced lifter working around load cap using tempo, unilateral work, mechanical drop sets, and myo-reps. Week 4 is a deload. Program_start_date is used to calculate which week you're in.",
+  "_program_notes": "6-day Push/Pull/Legs split (A/B variations) for 45 lb dumbbells + bench. Each muscle group hit twice weekly from different angles. Thursday is true rest. Designed for advanced lifter working around load cap using tempo, unilateral work, mechanical drop sets, and myo-reps. Week 4 is a deload. Program_start_date is used to calculate which week you're in.",
   "program_start_date": "2026-04-20",
-
   "workouts": {
-    "Push": {
-      "focus": "Chest, shoulders, triceps",
+    "Push A": {
+      "focus": "Chest-emphasis push: flat/incline pressing + triceps",
       "exercises": [
         {
           "name": "DB Bench Press",
-          "notation": "3 × 8–10 @ 3010 tempo",
+          "notation": "4 × 8–10 @ 3010 tempo",
           "detail": "45s @ 45lb. 3-sec lowering, no pause, 1-sec up. Rest 90s.",
-          "progression": "When you hit 10 reps all sets, add a 4th set next week."
+          "progression": "When you hit 10 reps all sets, add a 5th set next week."
         },
         {
           "name": "Incline DB Press (30° bench)",
@@ -124,27 +289,21 @@
           "progression": "Add 1 rep per set each week until 12, then add tempo."
         },
         {
-          "name": "Seated DB Shoulder Press",
-          "notation": "3 × 10–12",
-          "detail": "Seated on bench, back supported. Rest 90s.",
-          "progression": "Same: add reps, then add a paused rep at top."
-        },
-        {
-          "name": "DB Lateral Raise (myo-rep)",
-          "notation": "1 × 15, rest 15s, 3 × 5",
-          "detail": "Hit 15 reps to near-failure, rest 15s, then 3 clusters of 5 reps with 15s rest between. Light weight, strict form.",
-          "progression": "Increase the activation set by 1 rep weekly."
+          "name": "DB Flye → DB Press (mechanical drop)",
+          "notation": "3 rounds: 10 flyes + AMRAP flat press",
+          "detail": "On bench. Flyes to near failure, immediately transition to flat press for max reps. Rest 2 min.",
+          "progression": "Add flye reps weekly."
         },
         {
           "name": "Mechanical Drop: DB Skull Crusher → Close-Grip Press",
           "notation": "3 rounds: 8–10 skullcrushers + AMRAP close-grip press",
-          "detail": "Lying on bench. Do skull crushers to near failure, immediately transition to close-grip press for as many reps as possible. Rest 2 min.",
+          "detail": "Lying on bench. Skull crushers to near failure, immediately transition to close-grip press for as many reps as possible. Rest 2 min.",
           "progression": "Add reps to the skullcrusher portion."
         }
       ]
     },
-    "Pull": {
-      "focus": "Back, biceps, rear delts",
+    "Pull A": {
+      "focus": "Back-emphasis pull: rows + lats + biceps",
       "exercises": [
         {
           "name": "DB Row (single-arm, bench-supported)",
@@ -165,12 +324,6 @@
           "progression": "Add reps up to 15, then add a paused rep in stretched position."
         },
         {
-          "name": "DB Rear Delt Fly (chest-supported)",
-          "notation": "3 × 15",
-          "detail": "Face down on incline bench. Light weight, pinkies up at top, squeeze shoulder blades. Rest 60s.",
-          "progression": "Add reps to 20 before increasing weight."
-        },
-        {
           "name": "DB Hammer Curl → DB Curl (mechanical drop)",
           "notation": "3 rounds: 8–10 hammer + AMRAP supinated",
           "detail": "Hammer curls to near failure, immediately switch to standard curls. Rest 2 min.",
@@ -178,8 +331,8 @@
         }
       ]
     },
-    "Legs": {
-      "focus": "Quads, glutes, calves",
+    "Legs A": {
+      "focus": "Quad-emphasis legs: squats, lunges, calves",
       "exercises": [
         {
           "name": "DB Bulgarian Split Squat",
@@ -189,7 +342,7 @@
         },
         {
           "name": "DB Goblet Squat (paused)",
-          "notation": "3 × 12, 2-sec pause at bottom",
+          "notation": "4 × 12, 2-sec pause at bottom",
           "detail": "One DB at chest. 2-sec pause in the hole each rep. Depth over weight. Rest 90s.",
           "progression": "Extend pause to 3 sec, then 4 sec."
         },
@@ -200,12 +353,6 @@
           "progression": "Add 2 steps per set per week up to 30 total."
         },
         {
-          "name": "DB Romanian Deadlift",
-          "notation": "3 × 12 @ 3010",
-          "detail": "DBs in front. Hinge at hips, slight knee bend. 3-sec lowering, feel the hamstrings. Rest 90s.",
-          "progression": "Add reps up to 15, then slow lowering to 4 sec."
-        },
-        {
           "name": "Single-Leg DB Calf Raise",
           "notation": "3 × 15 per leg @ 2012",
           "detail": "Stand on a step, DB in one hand. 2-sec pause at top each rep. Rest 60s.",
@@ -213,15 +360,44 @@
         }
       ]
     },
-    "Upper": {
-      "focus": "Chest, back, shoulders, arms — higher rep, different angles",
+    "Push B": {
+      "focus": "Shoulder-emphasis push: overhead pressing + lateral delts + triceps",
       "exercises": [
         {
-          "name": "Incline DB Press (45° — steeper than Monday)",
-          "notation": "4 × 10–12",
-          "detail": "Steeper incline hits upper chest / front delts differently. Rest 90s.",
+          "name": "Seated DB Shoulder Press",
+          "notation": "4 × 8–10 @ 3010",
+          "detail": "Seated on bench, back supported. 3-sec lowering. Rest 90s.",
+          "progression": "Add reps, then add a paused rep at top when hitting 10."
+        },
+        {
+          "name": "Arnold Press",
+          "notation": "3 × 10–12",
+          "detail": "Seated. Start with palms facing you, rotate as you press. Full shoulder ROM. Rest 90s.",
+          "progression": "Add reps, then slow the rotation."
+        },
+        {
+          "name": "DB Lateral Raise (myo-rep)",
+          "notation": "1 × 15, rest 15s, 3 × 5",
+          "detail": "Hit 15 reps to near-failure, rest 15s, then 3 clusters of 5 reps with 15s rest between. Light weight, strict form.",
+          "progression": "Increase the activation set by 1 rep weekly."
+        },
+        {
+          "name": "Incline DB Press (45° steeper)",
+          "notation": "3 × 10",
+          "detail": "Steeper incline hits upper chest / front delts. Rest 90s.",
           "progression": "Add reps, then add tempo."
         },
+        {
+          "name": "DB Overhead Tricep Extension (both hands, one DB)",
+          "notation": "3 × 12",
+          "detail": "Seated or standing. One DB held with both hands behind head. Full stretch. Rest 60s.",
+          "progression": "Add reps up to 15, then add 2-sec stretched pause."
+        }
+      ]
+    },
+    "Pull B": {
+      "focus": "Arm + rear delt emphasis pull: rows + rear delts + bicep volume",
+      "exercises": [
         {
           "name": "DB Row (both arms, bent-over)",
           "notation": "4 × 10 @ 2011",
@@ -229,36 +405,36 @@
           "progression": "Add reps up to 12, then add pause."
         },
         {
-          "name": "Arnold Press",
-          "notation": "3 × 10",
-          "detail": "Seated. Start with palms facing you, rotate as you press. Full shoulder ROM. Rest 90s.",
-          "progression": "Add reps, then slow the rotation."
+          "name": "DB Rear Delt Fly (chest-supported)",
+          "notation": "4 × 15",
+          "detail": "Face down on incline bench. Light weight, pinkies up at top, squeeze shoulder blades. Rest 60s.",
+          "progression": "Add reps to 20 before increasing weight."
         },
         {
-          "name": "DB Flye → DB Press (mechanical drop)",
-          "notation": "3 rounds: 10 flyes + AMRAP presses",
-          "detail": "On bench. Flyes to near failure, transition to flat press for max reps. Rest 2 min.",
-          "progression": "Add flye reps weekly."
+          "name": "DB High Pull / Upright Row",
+          "notation": "3 × 12",
+          "detail": "Standing. Pull DBs up toward chin, elbows leading. Hits rear delts and traps. Rest 60s.",
+          "progression": "Add reps, then add a 1-sec hold at top."
         },
         {
-          "name": "DB Shrug (paused)",
-          "notation": "3 × 15, 2-sec pause",
-          "detail": "DBs at sides. Shrug high, hold 2 sec at top. Rest 60s.",
-          "progression": "Extend pause to 3 sec."
+          "name": "DB Incline Curl (bench at 45°)",
+          "notation": "3 × 10–12 @ 3010",
+          "detail": "Lie back on incline bench. Arms hang straight down. 3-sec lowering. Brutal stretch on biceps. Rest 90s.",
+          "progression": "Add 1 rep per week up to 12."
         },
         {
-          "name": "DB Curl + Overhead Tricep Extension (superset)",
-          "notation": "3 rounds: 12 curls + 12 extensions",
-          "detail": "Alternate with no rest between. Rest 90s between rounds.",
-          "progression": "Add reps to 15 before adding tempo."
+          "name": "DB Concentration Curl",
+          "notation": "3 × 12 per arm",
+          "detail": "Seated, elbow braced on inner thigh. Strict, controlled. Rest 30s between arms.",
+          "progression": "Add reps to 15, then add a peak squeeze pause."
         }
       ]
     },
-    "Lower": {
-      "focus": "Posterior chain, glutes, hamstrings",
+    "Legs B": {
+      "focus": "Posterior chain emphasis: hamstrings, glutes, calves",
       "exercises": [
         {
-          "name": "DB Romanian Deadlift (heavier focus)",
+          "name": "DB Romanian Deadlift",
           "notation": "4 × 10 @ 4010",
           "detail": "4-sec lowering. DBs in front. Push hips back, feel deep hamstring stretch. Rest 2 min.",
           "progression": "Add reps to 12 before returning to 3-sec tempo with more reps."
@@ -282,37 +458,42 @@
           "progression": "Add reps up to 12, then add pause at bottom."
         },
         {
-          "name": "DB Goblet Squat (high-rep finisher)",
-          "notation": "2 × 20",
-          "detail": "One DB at chest. Controlled, full depth. Burn set. Rest 2 min.",
-          "progression": "Add reps up to 25."
-        },
-        {
-          "name": "DB Calf Raise (both legs, pause)",
-          "notation": "3 × 20, 1-sec pause",
-          "detail": "Both DBs at sides, raise up on toes. Rest 60s.",
+          "name": "DB Calf Raise (both legs, paused)",
+          "notation": "3 × 20, 1-sec pause at top",
+          "detail": "Both DBs at sides, raise up on toes, pause 1 sec. Rest 60s.",
           "progression": "Add reps, then go single-leg."
         }
       ]
     },
     "Rest": {
-      "focus": "Recovery / running day",
+      "focus": "Recovery day — no lifting",
       "exercises": [
         {
-          "name": "Rest or light run",
+          "name": "Rest day",
           "notation": "—",
-          "detail": "No lifting today. If Saturday, enjoy your morning run. If Sunday, full rest.",
+          "detail": "No lifting today. Active recovery only — walking the dogs counts. Sleep matters more than any single workout.",
           "progression": "—"
         }
       ]
     }
   },
-
   "_week_modifiers_comment": "Applied to all exercises based on which week of the 4-week cycle you're in.",
   "week_modifiers": {
-    "1": { "label": "Week 1 — Accumulation", "note": "Stick to prescribed reps. Focus on form and full ROM." },
-    "2": { "label": "Week 2 — Intensification", "note": "Add 1 rep per set compared to week 1, OR slow the tempo by 1 sec on the eccentric." },
-    "3": { "label": "Week 3 — Overload", "note": "Push to the top of each rep range. On mechanical drop sets and myo-reps, extend by 1 round or 1 cluster." },
-    "4": { "label": "Week 4 — Deload", "note": "Reduce all sets by 1 and reps by ~30%. This is recovery — don't skip it. Next week you'll feel rebuilt." }
+    "1": {
+      "label": "Week 1 — Accumulation",
+      "note": "Stick to prescribed reps. Focus on form and full ROM."
+    },
+    "2": {
+      "label": "Week 2 — Intensification",
+      "note": "Add 1 rep per set compared to week 1, OR slow the tempo by 1 sec on the eccentric."
+    },
+    "3": {
+      "label": "Week 3 — Overload",
+      "note": "Push to the top of each rep range. On mechanical drop sets and myo-reps, extend by 1 round or 1 cluster."
+    },
+    "4": {
+      "label": "Week 4 — Deload",
+      "note": "Reduce all sets by 1 and reps by ~30%. This is recovery — don't skip it. Next week you'll feel rebuilt."
+    }
   }
 }
