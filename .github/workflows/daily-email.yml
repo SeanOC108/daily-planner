@@ -1,0 +1,30 @@
+# .github/workflows/daily-email.yml
+# Runs every day at 6:00 AM Eastern and sends the daily planner email.
+
+name: Daily Planner Email
+
+on:
+  schedule:
+    # 10:00 UTC = 6:00 AM EDT (summer) / 5:00 AM EST (winter).
+    # If you want 6 AM year-round, you'll need to adjust for DST manually,
+    # OR add a second cron line and accept that one will be off by an hour half the year.
+    - cron: '0 10 * * *'
+  workflow_dispatch:  # lets you run it manually from the Actions tab to test
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Send daily email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+        run: node send-daily-email.js
